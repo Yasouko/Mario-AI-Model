@@ -1,3 +1,5 @@
-gym-super-mario-bros
-nes-py
-torch torchvision torchaudio
+pip install gym-super-mario-bros==7.3.2 nes-py 
+pip install gym 
+pip install matplotlib 
+pip install torch==1.10.1+cpu torchvision==0.11.2+cpu torchaudio==0.10.1+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html 
+pip install 'stable-baselines3[extra]'
